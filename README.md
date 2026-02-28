@@ -1,5 +1,5 @@
-📄 AI Document Assistant using LLM + RAG + LangChain + FAISS
-An AI-powered document assistant that enables context-aware question answering over custom PDF and text documents using a Retrieval-Augmented Generation (RAG) pipeline.
+📄 AI Document Assistant using LLM + RAG + LangChain + FAISS  
+An AI-powered document assistant that enables context-aware question answering over custom PDF and text documents using a Retrieval-Augmented Generation (RAG) pipeline.  
 
 This system converts documents into embeddings, stores them in a vector database, retrieves relevant content using semantic search, and generates accurate answers using a Large Language Model (LLM).
 
