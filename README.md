@@ -14,6 +14,7 @@ This system converts documents into embeddings, stores them in a vector database
 - ❌ Reduced hallucination using RAG  
 
 ### 🧠 Architecture Overview  
+```
 PDF Document  
       ↓
 Document Loader (LangChain)  
@@ -34,7 +35,8 @@ Retrieve Relevant Chunks
       ↓
 LLM (Llama 3)  
       ↓
-Final Answer  
+Final Answer
+```
 
 
 ### 🛠 Tech Stack  
@@ -64,8 +66,8 @@ pip install langchain-ollama
 pip install pypdf
 ```
 
-- 3️⃣ Install Ollama (for Llama 3)  
-Then run:  
+- 3️⃣ Install Ollama (for Llama 3)
+- Then run:  
 ```
 ollama run llama3
 ```
